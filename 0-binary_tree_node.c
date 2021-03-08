@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
- * binary_tree_node - function that creates abinary tree node.
+ * binary_tree_node - function that creates a binary tree node.
  * @parent: Parent node with the previous node
- * @value:
+ * @value: input value to index in the new node.
  * Return: binary_tree_t*
  */
 
