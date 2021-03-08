@@ -2,13 +2,12 @@
 #include <stdlib.h>
 
 /**
- * @brief 
- * 
- * @parent:
- * @value:
- * Return: binary_tree_t* 
+ * binary_tree_insert_left -  function that inserts a node as the left-child.
+ * @parent: Reference to parent node.
+ * @value: input value to index in the new node.
+ *
+ * Return: binary_tree_t datatype node that points to new node.
  */
-
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value)
 {
 	binary_tree_t *new_node;
