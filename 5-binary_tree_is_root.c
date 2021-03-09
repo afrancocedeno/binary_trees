@@ -9,13 +9,8 @@
  */
 int binary_tree_is_root(const binary_tree_t *node)
 {
-	if (!node)
-		return (0);
 	/* it happens when you set the recursion with parent member */
-	if (node->parent)
-	{
-		binary_tree_is_root(node->right);
+	if (!node || node->parent)
 		return (0);
-	}
 	return (1);
 }
