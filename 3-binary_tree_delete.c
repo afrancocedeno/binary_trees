@@ -1,5 +1,4 @@
 #include "binary_trees.h"
-#include <stdlib.h>
 
 /**
  * binary_tree_delete - funcition that free binary tree nodes
@@ -14,6 +13,11 @@ void binary_tree_delete(binary_tree_t *tree)
 	_binary_tree_delete(tree);
 	free(tree);
 }
+
+/**
+ * _binary_tree_delete - auxiliar function that frees a binary
+ * @tree: reference pointer to root binary tree node.
+ */
 
 void _binary_tree_delete(binary_tree_t *tree)
 {
