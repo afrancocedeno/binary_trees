@@ -56,5 +56,6 @@ int binary_tree_is_full(const binary_tree_t *tree);
 /*-------COMPLEMENTARY FUNCTIONS---------*/
 
 int height(const binary_tree_t *node);
+int full_checker(const binary_tree_t *node);
 
 #endif
