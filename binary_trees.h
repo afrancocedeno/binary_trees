@@ -60,5 +60,9 @@ int height(const binary_tree_t *node);
 int full_checker(const binary_tree_t *node);
 int _height2(const binary_tree_t *tree);
 int height_aux(const binary_tree_t *node);
+int _height3(const binary_tree_t *tree);
+int height_aux2(const binary_tree_t *node);
+int _pow(int base, int exp);
+int _size(const binary_tree_t *tree);
 
 #endif
