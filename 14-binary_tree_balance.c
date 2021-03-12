@@ -2,10 +2,12 @@
 
 /**
  * binary_tree_balance - function that measures the balance factor.
- * @tree:
+ *
+ * @tree: The node tho measure the balance factor from
  *
  * Return: int with the difference between the left height and right height.
  */
+
 int binary_tree_balance(const binary_tree_t *tree)
 {
 	if (!tree)
@@ -13,6 +15,14 @@ int binary_tree_balance(const binary_tree_t *tree)
 
 	return (_height2(tree->left) - _height2(tree->right));
 }
+
+/**
+ * _height2 - Computes the height
+ *
+ * @tree: The node tho measure the height factor from
+ *
+ * Return: The height.
+ */
 
 int _height2(const binary_tree_t *tree)
 {
@@ -26,6 +36,14 @@ int _height2(const binary_tree_t *tree)
 	return (height_value + 1);
 
 }
+
+/**
+ * height_aux - Computes the height recursively
+ *
+ * @node: The node tho measure the height factor from
+ *
+ * Return: The height.
+ */
 
 int height_aux(const binary_tree_t *node)
 {
