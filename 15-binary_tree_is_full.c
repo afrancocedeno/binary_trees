@@ -1,8 +1,15 @@
 #include "binary_trees.h"
 
+/**
+ * binary_tree_is_full - Checks if a sub-tree is full
+ *
+ * @tree: Node where the sub-tree starts
+ *
+ * Return: 1 if tree is full, 0 otherwise
+ */
+
 int binary_tree_is_full(const binary_tree_t *tree)
 {
-	/* check_value is 1 if BT is full, otherwise 0 */
 	int check_value = 0;
 
 	if (!tree)
@@ -15,9 +22,11 @@ int binary_tree_is_full(const binary_tree_t *tree)
 }
 
 /**
- * 
- * @node:
- * Return: int 
+ * height - Computes the height of each sub-tree recursively
+ *
+ * @node: The node to check from
+ *
+ * Return: 1 if tree is full, 0 otherwise
  */
 int height(const binary_tree_t *node)
 {
